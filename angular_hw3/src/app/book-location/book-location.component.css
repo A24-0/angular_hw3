@@ -1,0 +1,39 @@
+.listing {
+  background: var(--accent-color);
+  border-radius: 30px;
+  padding-bottom: 30px;
+}
+.listing-heading {
+  color: var(--primary-color);
+  padding: 10px 20px 0 20px;
+}
+
+.listing-location {
+  padding: 10px 20px 20px 20px;
+}
+.buy-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: red;
+    cursor: grab;
+}
+section.listing a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+section.listing a::after {
+  content: "\203A";
+  margin-left: 5px;
+}
